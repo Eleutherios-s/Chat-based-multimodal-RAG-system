@@ -1,0 +1,12 @@
+# Assignment 11 - User Interface.
+# The UI needs gradio; the rest is the frozen RAG backend from assignments 8-10
+# (only required to run the REAL backend; the offline mock needs just gradio).
+
+gradio==6.19.0
+
+faiss-cpu==1.14.3
+torch==2.12.0
+transformers==5.12.1
+sentence-transformers==5.6.0
+numpy
+pandas

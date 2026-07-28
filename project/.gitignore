@@ -1,0 +1,26 @@
+# Datasets, model artifacts and generated indices are NOT committed (Assignment rules).
+# They are downloaded / rebuilt via build_data.py -- see README.md.
+
+# raw dataset bundles
+Compressed_Data/
+# extracted data + all generated artifacts
+Data/
+wikihow.db
+*.faiss
+*.npy
+# HowTo100M clips
+*.mp4
+
+# python / env
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# hugging face / model caches
+.hf_cache/
+cache/
+
+.DS_Store

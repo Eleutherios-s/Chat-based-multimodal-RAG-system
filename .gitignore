@@ -1,0 +1,10 @@
+venv/
+
+# ignore all data folders and their subfolders
+**/data/**
+.DS_Store
+
+*.db
+*.zip
+
+__pycache__/
