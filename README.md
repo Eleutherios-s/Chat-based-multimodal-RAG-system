@@ -66,11 +66,6 @@ committed — they are downloaded / rebuilt by the steps above.
 The two images are Figma mockups of the interface, once with the articles and once with the
 videos tab selected for the Top-K retrieval column.
 
-### Retrieved articles tab
-![ui mockup1](Interface_Mockup/UI_Mockup1.png)
-### Retrieved videos tab
-![ui mockup2](Interface_Mockup/UI_Mockup2.png)
-
 The system inspection panel includes:
 - Context size (token budget)
     - If we exceed the max context size, the chat model breaks down so we need this in order to balance the context input. Note that in the mockup only one article and one video are portrayed. This is purely for demonstration purposes so it does not dominate the image. In the full application, this would correspond to the retrieved top-k results
